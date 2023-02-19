@@ -14,6 +14,7 @@
 		419B178C27987EBE00423A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B178A27987EBE00423A18 /* LaunchScreen.storyboard */; };
 		FFA011EA29A1959700179977 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA011E929A1959700179977 /* BookListTableViewController.swift */; };
 		FFA011EC29A19FCC00179977 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA011EB29A19FCC00179977 /* BookTableViewCell.swift */; };
+		FFA011EE29A2BF6B00179977 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA011ED29A2BF6B00179977 /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		419B178D27987EBE00423A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFA011E929A1959700179977 /* BookListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
 		FFA011EB29A19FCC00179977 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		FFA011ED29A2BF6B00179977 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				FFA011E929A1959700179977 /* BookListTableViewController.swift */,
 				FFD638FF299D3240007EE2A7 /* Custom Views */,
+				FFA011ED29A2BF6B00179977 /* BookDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				419B178027987EBC00423A18 /* AppDelegate.swift in Sources */,
 				419B178227987EBC00423A18 /* SceneDelegate.swift in Sources */,
 				FFA011EA29A1959700179977 /* BookListTableViewController.swift in Sources */,
+				FFA011EE29A2BF6B00179977 /* BookDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

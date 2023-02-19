@@ -12,6 +12,8 @@
 		419B178727987EBC00423A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B178527987EBC00423A18 /* Main.storyboard */; };
 		419B178927987EBE00423A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419B178827987EBE00423A18 /* Assets.xcassets */; };
 		419B178C27987EBE00423A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B178A27987EBE00423A18 /* LaunchScreen.storyboard */; };
+		FFA011EA29A1959700179977 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA011E929A1959700179977 /* BookListTableViewController.swift */; };
+		FFA011EC29A19FCC00179977 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA011EB29A19FCC00179977 /* BookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		419B178827987EBE00423A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419B178B27987EBE00423A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		419B178D27987EBE00423A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA011E929A1959700179977 /* BookListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
+		FFA011EB29A19FCC00179977 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,20 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		416F0D412798D773002D4080 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		416F0D422798D781002D4080 /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Custom Views";
-			sourceTree = "<group>";
-		};
 		416F0D432798D797002D4080 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,28 +78,44 @@
 		419B177E27987EBC00423A18 /* BookStore */ = {
 			isa = PBXGroup;
 			children = (
-				419B17AA2798D66600423A18 /* View */,
-				419B17A92798D65100423A18 /* Model */,
-				416F0D412798D773002D4080 /* Controller */,
+				FFD638FD299D3221007EE2A7 /* Controllers */,
+				FFD638FC299D3217007EE2A7 /* Model */,
 				416F0D442798D7CB002D4080 /* Storyboards */,
 				416F0D432798D797002D4080 /* Supporting Files */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
 		};
-		419B17A92798D65100423A18 /* Model */ = {
+		FFD638FC299D3217007EE2A7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		419B17AA2798D66600423A18 /* View */ = {
+		FFD638FD299D3221007EE2A7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				416F0D422798D781002D4080 /* Custom Views */,
+				FFD638FE299D3234007EE2A7 /* View Controllers */,
 			);
-			path = View;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FFD638FE299D3234007EE2A7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFA011E929A1959700179977 /* BookListTableViewController.swift */,
+				FFD638FF299D3240007EE2A7 /* Custom Views */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FFD638FF299D3240007EE2A7 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFA011EB29A19FCC00179977 /* BookTableViewCell.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA011EC29A19FCC00179977 /* BookTableViewCell.swift in Sources */,
 				419B178027987EBC00423A18 /* AppDelegate.swift in Sources */,
 				419B178227987EBC00423A18 /* SceneDelegate.swift in Sources */,
+				FFA011EA29A1959700179977 /* BookListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
